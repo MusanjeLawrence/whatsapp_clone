@@ -21,7 +21,8 @@ class ContactsList extends StatelessWidget {
             style: const TextStyle(fontSize: 15),
             ),
           ),
-          leading: CircleAvatar(
+          leading:
+          CircleAvatar(
             backgroundImage: NetworkImage(
               info[index]['profilePic'].toString(),
             ),
